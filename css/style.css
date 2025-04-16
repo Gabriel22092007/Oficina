@@ -11,7 +11,7 @@ body {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -31,16 +31,20 @@ label {
     font-weight: bold;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid #bdc3c7;
+    border: 2px solid #000000;
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s ease;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
     border-color: #3498db;
     outline: none;
 }
@@ -83,7 +87,7 @@ button:hover {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 25px;
-}   
+}
 
 .form-section h2 {
     color: #3498db;
